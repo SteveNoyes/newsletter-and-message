@@ -50,8 +50,8 @@ The designs were created for the following widths:
 
 ## Links
 
-- Solution URL: [GitHub Repo](https://github.com/SteveNoyes/base-apparel-coming-soon)
-- Live Site URL: [GitHub Pages](https://stevenoyes.github.io/base-apparel-coming-soon/)
+- Solution URL: [GitHub Repo](https://github.com/SteveNoyes/newsletter-and-message)
+- Live Site URL: [GitHub Pages](https://stevenoyes.github.io/newsletter-and-message/)
 
 ## My process
 ### Built with
