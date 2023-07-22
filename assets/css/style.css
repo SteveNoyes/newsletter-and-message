@@ -1,18 +1,96 @@
 :root {
-  /* Primary */
   --tomato: hsl(4, 100%, 67%);
-  /* Neutral */
   --dark-slate-grey: hsl(234, 29%, 20%);
   --charcoal-grey: hsl(235, 18%, 26%);
   --grey: hsl(231, 7%, 60%);
   --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 14%);
 }
 body {
   font-size: 16px;
+  font-family: "Roboto Regular";
+  font-weight: 400;
+}
+.main {
+  background-color: var(--black);
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card {
+  width: 370px;
+  background-color: var(--white);
+}
+.body-wrapper {
+  padding: 40px 30px 50px 30px;
+}
+header img {
+  width: 370px;
+  height: auto;
+  margin-top: -1px;
+}
+.body-wrapper h1 {
+  font-size: 37px;
+  font-family: "Roboto Bold";
+  padding-bottom: 30px;
+}
+.body-wrapper p {
+  line-height: 1.5;  
+}
+ul {
+  padding: 10px 0;
+}
+ul li {
+  display:flex;
+  align-items: start;
+  padding: 5px 0;
+}
+ul li img {
+  padding: 3px 10px 0 0;
+}
+.email-address {
+  font-family: "Roboto Bold";
+  font-size: 12px;
+  padding: 20px 0 10px;
+}
+input {
+  width: 92%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid var(--grey);
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+input:hover {
+  cursor: pointer;
+}
+textarea:focus, input:focus{
+  outline: none;
+}
+::placeholder {
+  font-size: 16px;
+}
+button {
+  width: 100%;
+  height: 50px;
+  background-color: var(--dark-slate-grey);
+  color: var(--white);
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 5px;
 }
 
-/*
-  - Font Family: Roboto 
-  - Font Weights: Regular 400, Bold 700 
-*/
+button:hover {
+  cursor: pointer;
+}
 
+@media screen and (min-width: 1000px) {
+  * {
+    border: 1px solid red!important;
+  }
+}
